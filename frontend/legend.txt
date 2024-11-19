@@ -1,0 +1,5 @@
+quote = qq
+media title = m m
+link = ll
+thought = tt 
+person = pp

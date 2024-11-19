@@ -1,0 +1,29 @@
+.flexbox {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+#sidebar {
+  width: 150px; /* Fixed width with units */
+  margin: 50px;
+}
+
+#text-div {
+  flex-grow: 1; /* Allow the div to grow and take up the remaining space */
+}
+
+textarea {
+  flex-grow: 1; /* Allow the textarea to take up the remaining space */
+  width: 100%; /* Ensure it takes up the full width available in its parent */
+  height: 100%; /* Ensure it takes up the full height available */
+  box-sizing: border-box; /* Include padding and border in dimensions */
+  resize: none; /* Prevent resizing (optional) */
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  padding: 50px;
+  border: none;
+}
+
+#sidebar p {
+  margin-left: 20px;
+}
